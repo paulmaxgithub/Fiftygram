@@ -24,12 +24,12 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynd-Hf-4n7">
-                                <rect key="frame" x="136" y="512" width="142" height="48"/>
+                                <rect key="frame" x="136" y="512" width="142" height="38"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="142" id="orT-1G-VfK"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="KohinoorGujarati-Bold" family="Kohinoor Gujarati" pointSize="17"/>
                                 <state key="normal" title="Sepia">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -43,12 +43,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XwY-V9-KpN">
-                                <rect key="frame" x="136" y="590" width="142" height="48"/>
+                                <rect key="frame" x="136" y="580" width="142" height="38"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="142" id="mWw-It-fEO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="KohinoorGujarati-Bold" family="Kohinoor Gujarati" pointSize="17"/>
                                 <state key="normal" title="Noir">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -62,12 +62,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4N5-ac-Hkj">
-                                <rect key="frame" x="136" y="668" width="142" height="48"/>
+                                <rect key="frame" x="136" y="648" width="142" height="38"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="142" id="Uzc-ua-sp5"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="KohinoorGujarati-Bold" family="Kohinoor Gujarati" pointSize="17"/>
                                 <state key="normal" title="Vintage">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -80,13 +80,34 @@
                                     <action selector="applyVintage" destination="BYZ-38-t0r" eventType="touchUpInside" id="9BC-Yi-sR6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OG2-gY-T1I">
+                                <rect key="frame" x="136" y="716" width="142" height="38"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="142" id="y0c-g0-boR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KohinoorGujarati-Bold" family="Kohinoor Gujarati" pointSize="17"/>
+                                <state key="normal" title="Radius">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="applyPosterize" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ce-ce-yZo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XwY-V9-KpN" firstAttribute="top" secondItem="ynd-Hf-4n7" secondAttribute="bottom" constant="30" id="1An-7Z-PNB"/>
                             <constraint firstItem="VlZ-kI-Fim" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="EIt-i7-cWE"/>
                             <constraint firstItem="ynd-Hf-4n7" firstAttribute="top" secondItem="VlZ-kI-Fim" secondAttribute="bottom" constant="30" id="Gaw-cH-zxw"/>
+                            <constraint firstItem="OG2-gY-T1I" firstAttribute="top" secondItem="4N5-ac-Hkj" secondAttribute="bottom" constant="30" id="LGk-F9-DWs"/>
                             <constraint firstItem="XwY-V9-KpN" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Mks-Yu-q3C"/>
+                            <constraint firstItem="OG2-gY-T1I" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cts-XI-PbX"/>
                             <constraint firstItem="ynd-Hf-4n7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gyp-r3-tHr"/>
                             <constraint firstItem="4N5-ac-Hkj" firstAttribute="top" secondItem="XwY-V9-KpN" secondAttribute="bottom" constant="30" id="oAc-ff-5bM"/>
                             <constraint firstItem="4N5-ac-Hkj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="p4K-Pf-y4h"/>
@@ -95,6 +116,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Fiftygram" id="BE2-AU-7lP">
+                        <barButtonItem key="leftBarButtonItem" systemItem="save" id="MDs-6j-2jb">
+                            <connections>
+                                <action selector="saveImage:" destination="BYZ-38-t0r" id="orm-JF-zJV"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Choose Photo" id="6iY-Ms-s20">
                             <connections>
                                 <action selector="choosePhoto:" destination="BYZ-38-t0r" id="lXv-rT-Qjv"/>
